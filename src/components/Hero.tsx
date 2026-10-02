@@ -29,12 +29,12 @@ export function Hero() {
           </GoldButton>
         </motion.div>
       </div>
-      <div className="relative h-[70vh] md:h-auto">
+      <div className="relative h-[300px] md:h-auto">
         <img
           src={images.hero}
-          alt={`${person.name} seated at his desk`}
-          className="absolute inset-0 h-full w-full object-cover object-top" />
-        
+          alt="Modern open-plan office with desks and monitors, overlooking a harbour bridge"
+          className="absolute inset-0 h-full w-full object-cover object-center" />
+        <div className="absolute inset-0 bg-black/15" aria-hidden="true" />
       </div>
     </section>);
 

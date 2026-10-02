@@ -12,8 +12,8 @@ export function Bio() {
           <div className="relative pb-28 pl-6 sm:pb-20 sm:pl-14">
             <img
               src={images.bio}
-              alt={`Portrait of ${person.name}`}
-              className="aspect-[4/5] w-full object-cover" />
+              alt="Busy open-plan office with people working at computers"
+              className="h-[300px] w-full object-cover object-center lg:aspect-[585/470] lg:h-auto lg:max-w-[585px]" />
             
             <figure className="absolute bottom-0 left-0 max-w-[340px] bg-navy p-7 sm:p-8">
               <QuoteIcon className="h-8 w-8 fill-gold text-gold" aria-hidden="true" />

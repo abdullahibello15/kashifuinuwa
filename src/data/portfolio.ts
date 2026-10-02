@@ -18,8 +18,8 @@ export const person = {
 };
 
 export const images = {
-  hero: "/04f2be64-c371-46c3-8dd4-4b39bfe648d0.jpg",
-  bio: "/99ddcded-d2b9-4f7a-bdd7-a74a7a58c212.jpg",
+  hero: "/hero-office.jpg",
+  bio: "/bio-office.jpg",
   banner: "/6c724452-ba16-48a7-a908-e7e55e3cfaa0.jpg"
 };
 
